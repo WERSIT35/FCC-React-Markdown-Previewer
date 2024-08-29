@@ -1,0 +1,31 @@
+.boxes-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    height: 50%;
+}
+
+#editor{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background-color: #2f2f2f;
+    resize: none;
+    color: white;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+#preview{
+    margin-top: 40px;
+    width: 100%;
+    height: 80vh;
+    background-color: #2f2f2f;
+    overflow: auto;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
